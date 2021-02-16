@@ -25,7 +25,7 @@ INJECTED from /Users/tlucaskfm/Downloads/Testes Android/Leilao/Leilao/app/src/ma
 INJECTED from /Users/tlucaskfm/Downloads/Testes Android/Leilao/Leilao/app/src/main/AndroidManifest.xml:2:1-25:12
 INJECTED from /Users/tlucaskfm/Downloads/Testes Android/Leilao/Leilao/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from /Users/tlucaskfm/Downloads/Testes Android/Leilao/Leilao/app/src/main/AndroidManifest.xml:3:5-34
+		ADDED from /Users/tlucaskfm/Downloads/Testes Android/Leilao/Leilao/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /Users/tlucaskfm/Downloads/Testes Android/Leilao/Leilao/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/tlucaskfm/Downloads/Testes Android/Leilao/Leilao/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -62,7 +62,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/tluc
 		ADDED from /Users/tlucaskfm/Downloads/Testes Android/Leilao/Leilao/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from /Users/tlucaskfm/Downloads/Testes Android/Leilao/Leilao/app/src/main/AndroidManifest.xml:14:9-40
-activity#br.com.alura.leilao.ui.activity.ListaLeilaoActivity
+activity#br.com.app4funbr.leilao.ui.activity.ListaLeilaoActivity
 ADDED from /Users/tlucaskfm/Downloads/Testes Android/Leilao/Leilao/app/src/main/AndroidManifest.xml:15:9-20:20
 	android:name
 		ADDED from /Users/tlucaskfm/Downloads/Testes Android/Leilao/Leilao/app/src/main/AndroidManifest.xml:15:19-66
@@ -76,11 +76,11 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/tlucaskfm/Downloads/Testes Android/Leilao/Leilao/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
 		ADDED from /Users/tlucaskfm/Downloads/Testes Android/Leilao/Leilao/app/src/main/AndroidManifest.xml:18:27-74
-activity#br.com.alura.leilao.ui.activity.LancesLeilaoActivity
+activity#br.com.app4funbr.leilao.ui.activity.LancesLeilaoActivity
 ADDED from /Users/tlucaskfm/Downloads/Testes Android/Leilao/Leilao/app/src/main/AndroidManifest.xml:21:9-70
 	android:name
 		ADDED from /Users/tlucaskfm/Downloads/Testes Android/Leilao/Leilao/app/src/main/AndroidManifest.xml:21:19-67
-activity#br.com.alura.leilao.ui.activity.ListaUsuarioActivity
+activity#br.com.app4funbr.leilao.ui.activity.ListaUsuarioActivity
 ADDED from /Users/tlucaskfm/Downloads/Testes Android/Leilao/Leilao/app/src/main/AndroidManifest.xml:22:9-70
 	android:name
 		ADDED from /Users/tlucaskfm/Downloads/Testes Android/Leilao/Leilao/app/src/main/AndroidManifest.xml:22:19-67

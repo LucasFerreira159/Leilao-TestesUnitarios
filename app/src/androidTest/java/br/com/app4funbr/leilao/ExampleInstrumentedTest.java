@@ -7,6 +7,14 @@ import android.support.test.runner.AndroidJUnit4;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
+import br.com.app4funbr.leilao.model.Leilao;
+import br.com.app4funbr.leilao.ui.recyclerview.adapter.ListaLeilaoAdapter;
+
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.*;
 
 /**
@@ -16,11 +24,16 @@ import static org.junit.Assert.*;
  */
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
-    @Test
-    public void useAppContext() {
-        // Context of the app under test.
-        Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("br.com.app4funbr.leilao", appContext.getPackageName());
+    @Test
+    public void deve_AtualizarListaDeLeiloes_QuandoReceberListaDeLeiloes() {
+        Context appContext = InstrumentationRegistry.getTargetContext();
+        ListaLeilaoAdapter adapter = new ListaLeilaoAdapter(appContext);
+        adapter.atualiza(new ArrayList<Leilao>(Arrays.asList(
+                new Leilao("Console"),
+                new Leilao("Computador")
+        )));
+        int quantidadeLeiloesDevolvida = adapter.getItemCount();
+        assertThat(quantidadeLeiloesDevolvida, is(2));
     }
 }

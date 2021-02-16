@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Feb 16 08:29:13 BRT 2021
+#Tue Feb 16 09:55:52 BRT 2021
 0.baseType=DIRECTORY
 0.base=/Users/tlucaskfm/Downloads/Testes Android/Leilao/Leilao/app/build/intermediates/transforms/dexMerger/debug/0
 0.path=classes.dex

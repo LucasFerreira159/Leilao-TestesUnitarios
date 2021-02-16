@@ -1,4 +1,4 @@
-#Tue Feb 16 08:29:12 BRT 2021
+#Tue Feb 16 09:55:52 BRT 2021
 base.0=/Users/tlucaskfm/Downloads/Testes Android/Leilao/Leilao/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
